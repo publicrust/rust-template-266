@@ -5,14 +5,18 @@
     <LangVersion>10</LangVersion>
     <NoWarn>MSB3277</NoWarn>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <RustVersion>LastVersion</RustVersion>
   </PropertyGroup>
+  <ItemGroup>
+    <CompilerVisibleProperty Include="RustVersion" />
+  </ItemGroup>
   <ItemGroup>
     <Reference Include=".\Managed\*.dll">
       <Private>False</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="rust-analyzer" Version="8.0.15">
+    <PackageReference Include="rust-analyzer" Version="8.0.17">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
