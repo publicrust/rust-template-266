@@ -5,7 +5,7 @@
     <LangVersion>10</LangVersion>
     <NoWarn>MSB3277</NoWarn>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
-    <RustVersion>LastVersion</RustVersion>
+    <RustVersion>240Dev</RustVersion>
   </PropertyGroup>
   <ItemGroup>
     <CompilerVisibleProperty Include="RustVersion" />
