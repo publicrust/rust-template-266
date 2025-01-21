@@ -33,6 +33,12 @@ Follow in the strict order:
 
 <Step-by-step answer with CONCRETE details and key context>
 
+**Core Features:**
+- Manage server hooks efficiently.
+- Implement permission systems.
+- Handle data securely with configuration files.
+- Optimize plugin performance with modular architecture.
+
 ---
 
 ### 1. Plugin Fundamentals
