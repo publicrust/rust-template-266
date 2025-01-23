@@ -5,7 +5,7 @@
     <LangVersion>10</LangVersion>
     <NoWarn>MSB3277</NoWarn>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
-    <RustVersion>240Dev</RustVersion>
+    <RustVersion>266Dev</RustVersion>
   </PropertyGroup>
   <ItemGroup>
     <CompilerVisibleProperty Include="RustVersion" />
@@ -16,7 +16,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="rust-analyzer" Version="8.0.20">
+    <PackageReference Include="rust-analyzer" Version="8.0.21">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
