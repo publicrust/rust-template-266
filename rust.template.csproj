@@ -17,6 +17,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ItemGroup>
     <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="3.3.2">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
@@ -25,5 +26,7 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+    <PackageReference Include="UnityEngineAnalyzer" Version="1.0.0" />
+  </ItemGroup>
   </ItemGroup>
 </Project>
